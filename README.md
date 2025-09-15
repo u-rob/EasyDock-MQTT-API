@@ -15,6 +15,7 @@ Jeder Aufruf muss die folgende Spezifikation erfüllen:
 - method (string) – Die auszuführende Aktion
   - Verfügbare Aktionen:
     - start_mission
+    - takeoff_to_point
 - dock_sn (string) – SN des Docks, mit welchem die Aktion durchgeführt werden soll.
 - data (JSON-Object) – Die Parameter für die Aktion
 
@@ -66,7 +67,7 @@ Reply (Fehler):
 {
     "message_id": "a7fd55d4-9696-4d3e-bcd6-2a69029517c4",
     "timestamp": 1715779149528,
-    "replying_to": "c2b865b6-478c-4b9f-80fe-1bcd98b20b91",
+    "reply_to": "c2b865b6-478c-4b9f-80fe-1bcd98b20b91",
     "status_code": 0,
     "status_code_description": "Manuelle Steuerung ist noch aktiv"
 }
@@ -99,7 +100,7 @@ Reply (Erfolg):
 {
     "message_id": "f09a1e70-5c56-45c0-ad77-879c6183cad1",
     "timestamp": 1715779016020,
-    "replying_to": "c2b865b6-478c-4b9f-80fe-1bcd98b20b91",
+    "reply_to": "c2b865b6-478c-4b9f-80fe-1bcd98b20b91",
     "status_code": 1,
     "status_code_description": "success"
 }
@@ -111,7 +112,7 @@ Reply (Fehler):
 {
     "message_id": "a7fd55d4-9696-4d3e-bcd6-2a69029517c4",
     "timestamp": 1715779149528,
-    "replying_to": "c2b865b6-478c-4b9f-80fe-1bcd98b20b91",
+    "reply_to": "c2b865b6-478c-4b9f-80fe-1bcd98b20b91",
     "status_code": 0,
     "status_code_description": "Manuelle Steuerung ist noch aktiv"
 }
