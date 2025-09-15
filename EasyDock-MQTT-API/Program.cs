@@ -15,7 +15,7 @@ namespace MQTTAPIEXAMPLE
         static MqttClient mqtt_client;
 
         // Dock SN
-        static string dock_sn = "8UUXN2R00A01KT";
+        static string dock_sn = "8UUXN2R00A10KF";
 
         // Topics
         static string TOPIC_REQUEST = "easydock-api/sn/" + dock_sn + "/request";
