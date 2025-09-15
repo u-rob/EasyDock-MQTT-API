@@ -55,7 +55,7 @@ Reply (Erfolg):
 {
     "message_id": "f09a1e70-5c56-45c0-ad77-879c6183cad1",
     "timestamp": 1715779016020,
-    "replying_to": "c2b865b6-478c-4b9f-80fe-1bcd98b20b91",
+    "reply_to": "c2b865b6-478c-4b9f-80fe-1bcd98b20b91",
     "status_code": 1,
     "status_code_description": "success"
 }
