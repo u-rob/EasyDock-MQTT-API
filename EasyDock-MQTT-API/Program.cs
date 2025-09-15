@@ -138,7 +138,7 @@ namespace MQTTAPIEXAMPLE
                     {
                         mission_name = "test",
                         mission_by_easydock = true,
-                        signal_type = (int)SignalType.REGULAR,
+                        signal_type = (int)SignalType.ALARM,
                         checklist_confirmed = true,
                         user = "123"
                     }
@@ -178,8 +178,9 @@ namespace MQTTAPIEXAMPLE
                     {
                         lat = 52.084373,
                         lng = 8.5098026,
+                        height = 20,
                         signal_type = (int)SignalType.ALARM,
-                        checklist_confirmed = false,
+                        checklist_confirmed = true,
                         user = "123"
                     }
                 };
